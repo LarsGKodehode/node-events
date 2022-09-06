@@ -3,10 +3,10 @@
   "compilerOptions": {
     /* Language and Environment */
     "target": "ESNext",
-    "lib": ["ES6"],
+    "lib": ["ESNext"],
 
     /* Modules */
-    "module": "commonjs",
+    "module": "CommonJS",
     "rootDir": "src",
     "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
@@ -19,8 +19,8 @@
     "declarationDir": "@types",
 
     /* Interop Constraints */
-    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
-    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
 
     /* Type Checking */
     "strict": true,
@@ -28,14 +28,8 @@
     "alwaysStrict": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitThis": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
 
     /* Completeness */
     "skipLibCheck": true
-  },
-  "files": [
-    "./node_modules/@types/node/index.d.ts"
-  ]
+  }
 }
